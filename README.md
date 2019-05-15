@@ -11,8 +11,6 @@ These include:
 
 - **Free 48 Gems Icon Pack**
 
-- **AudioController**
-
 - **Rocks and Boulders 2**
 
 - **RPG_inventory_icons**
