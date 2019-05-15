@@ -1,0 +1,492 @@
+/target:library
+/nowarn:0169
+/out:Temp/Assembly-CSharp.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+/reference:E:/Unity/GeologyFromScratch/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll
+/reference:E:/Unity/GeologyFromScratch/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll
+/reference:E:/Unity/GeologyFromScratch/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+/reference:E:/Unity/GeologyFromScratch/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+/reference:E:/Unity/GeologyFromScratch/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.Primitives.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Data.Common.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Contracts.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Debug.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Process.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.StackTrace.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tools.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TraceSource.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tracing.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Drawing.Primitives.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Dynamic.Runtime.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Primitives.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.MemoryMappedFiles.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Pipes.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Parallel.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NameResolution.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NetworkInformation.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Ping.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Primitives.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Requests.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Security.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Sockets.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebHeaderCollection.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.Client.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.ResourceManager.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Writer.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Json.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Csp.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Encoding.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Primitives.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Principal.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.ThreadPool.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.ReaderWriter.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Core.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.IO.Compression.FileSystem.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Net.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Numerics.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Runtime.Serialization.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ServiceModel.Web.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Transactions.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Web.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll"
+/reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll"
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_3_0
+/define:UNITY_2018_3
+/define:UNITY_2018
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_DUCK_TYPING
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_SPRITES
+/define:ENABLE_GRID
+/define:ENABLE_TILEMAP
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_DIRECTOR
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_HUB
+/define:ENABLE_CLOUD_PROJECT_ID
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_TIMELINE
+/define:ENABLE_EDITOR_METRICS
+/define:ENABLE_EDITOR_METRICS_CACHING
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:INCLUDE_GI
+/define:ENABLE_MONO_BDWGC
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:INCLUDE_PUBNUB
+/define:ENABLE_VIDEO
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_LOCALIZATION
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_SUBSTANCE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Actions\Action.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Actions\Attack.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Actions\Chase.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Actions\Eat.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Actions\FindFood.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Actions\Flee.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Actions\Patrol.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Actions\PointBased.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Gameplay\AIGroup.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Goals\AvoidPlayer.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Goals\Goal.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Goals\KillPlayer.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Goals\SatisfyHunger.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Logic\AIBrain.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Logic\EntityActions\AISettings.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Logic\EntityActions\EntityAnimation.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Logic\EntityActions\EntityDetection.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Logic\EntityActions\EntityMovement.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Logic\EntityActions\EntityVitals.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Logic\Planner.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Logic\StateData.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.AI\Utility\HelpStrings.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Building\BuildingHelpers.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Building\BuildingHolder.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Building\BuildingPiece.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Building\Door.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Building\PlayerBuilder.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Building\Socket.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Building\StabilityPoint.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Debugging\ItemAddHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Debugging\PlayerInfo.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.Debugging\StartupItems.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\_General\GUIController.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\_General\MessageDisplayer.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\_General\Window.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\_General\GUIBehaviour.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\_General\ItemContainer.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\_General\Slot.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Building System\BuildingCategory.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Building System\BuildingPiece.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Building System\BuildingWheel.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Character\CharacterEquipmentHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Crafting\CraftingCategory.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Crafting\CraftingList.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Crafting\CraftingMenu.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Crafting\CraftingQueue.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Crafting\QueueElement.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Crafting\RecipeInspector.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Crafting\RecipeSlot.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Crafting\RequiredItemRow.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\AnvilGUI.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\CrosshairManager.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\DamageGUI.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\DynamicCrosshair.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\Hotbar.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\ItemInspector.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\LootContainerOpener.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\PlayerStatsGUI.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\PlayerVitalsGUI.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Others\ScreenFader.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Smelting\FlamesIcon.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.GUISystem\Gameplay\Smelting\SmeltingStationGUI.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.InputSystem\Axis.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.InputSystem\Button.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.InputSystem\ButtonHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.InputSystem\InputData.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.InputSystem\InputManager.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.InputSystem\Joystick.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.InputSystem\PlayerInputHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.StandardAssets\AA.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.StandardAssets\BloomEffect.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.StandardAssets\ColorCorrection.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.StandardAssets\DOF.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.StandardAssets\FPSDisplayer.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.StandardAssets\ImageEffectBase.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.StandardAssets\MyQuads.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.StandardAssets\ObjectDestructor.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival.StandardAssets\ParticleDestroyer.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\_General\CannibalSpawner.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\_General\ET.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\_General\GameController.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\_General\MonoSingleton.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\_General\ReorderableLists.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\_General\ScriptableSingleton.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\_General\Tags.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\AIAnimator.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Attributes\ClampAttribute.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Attributes\HelpboxAttribute.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Attributes\HideSwitchAttribute.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Attributes\ReorderableAttribute.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Attributes\ShowOnlyAttribute.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Camera\CameraAnimator.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Camera\CameraShakePresets.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Camera\FPCameraController.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Camera\MouseLook.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Camera\RootHeightHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Camera\ShakeInstance.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Camera\SmoothMouseLook.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\CannibalResetter.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Damage System\AnimalVitals.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Damage System\DamageArea.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Damage System\EntityVitals.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Damage System\GenericVitals.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Damage System\HealthManagement.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Damage System\HitBox.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Damage System\PieceVitals.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Damage System\PlayerVitals.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Damage System\Ragdoll.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Environment\AmbienceController.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Environment\DetailSpawnData.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Environment\SceneReflection.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Environment\TimeOfDay.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Behaviours\AIBehaviour.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Behaviours\EntityBehaviour.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Behaviours\PlayerBehaviour.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Handlers\AIEventHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Handlers\EntityEventHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Handlers\PlayerEventHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Types\Activity.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Types\Attempt.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Types\Message.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Event System\Types\Value.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Inventory\General\Item.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Inventory\General\ItemDatabase.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Inventory\General\ItemHolder.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Inventory\General\ItemProperty.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Inventory\General\Recipe.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Inventory\IInventoryTrigger.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Inventory\InventoryController.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Inventory\ItemDragHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Object Pooling\FutureSys\Pool.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Object Pooling\FutureSys\PoolableObject.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Object Pooling\FutureSys\PoolManager.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Object Pooling\PooledObject.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Object Pooling\PoolingController.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPAnimator.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPBow.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPBowAnimator.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPHitscan.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPHitscanAnimator.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPHitscanEventHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPManager.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPMelee.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPMeleeAnimator.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPMeleeEventHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPMotion.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPObject.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPSpear.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPSpearAnimator.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPTool.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPTorch.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\FPWeaponBase.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\First Person\State Machine Behaviours\ReloadLoop.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\Anvil.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\Base\InteractableObject.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\Base\IOpenable.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\Base\RaycastManager.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\Firelight.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\ItemPickup.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\Lamp.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\LootObject.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\MineableObject.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\MineableStone.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\MineableTree.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\ShaftedProjectile.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\SleepingBag.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\SmeltingStation.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Interaction\TreeManager.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Misc\CCDrivenController.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Misc\EntityDeathHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Misc\FootstepPlayer.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Misc\LootOnDeath.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Misc\PlayerDeathHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Misc\PlayerPauseHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Misc\PlayerSleepHandler.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Misc\PlayerStats.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Player\Third Person\CharacterEquipment.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Surface Managing\SurfaceData.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Surface Managing\SurfaceDatabase.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Surface Managing\SurfaceIdentity.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\AlphaPulse.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\AudioUtils.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\CollectionUtils.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\ColorUtils.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\DisableAtStart.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\Extensions.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\GUIUtils.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\MotionPatterns.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\PivotDisplayer.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\ProbabilityUtils.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\ScriptUtilities.cs"
+"Assets\Ultimate Survival\Scripts\By Namespace\UltimateSurvival\Utility\SoundPlayer.cs"

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6966899522187589969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6305745668699801080}
+  - component: {fileID: 6433960873839227354}
+  - component: {fileID: 4332987104641007145}
+  - component: {fileID: 977372829123350305}
+  - component: {fileID: 6336995742756957228}
+  m_Layer: 0
+  m_Name: Mineral Stone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6305745668699801080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966899522187589969}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.4464874, y: 2.1567307, z: 6.051552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6433960873839227354
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966899522187589969}
+  m_Mesh: {fileID: 4300000, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70, type: 3}
+--- !u!23 &4332987104641007145
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966899522187589969}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a757083ce9ed07240a5511e1c9d6e846, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &977372829123350305
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966899522187589969}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.52, y: 1.14, z: 2.1}
+  m_Center: {x: -0.064275384, y: -0.06345254, z: -0.21927375}
+--- !u!114 &6336995742756957228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966899522187589969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b16989967647743903c0f80e8e486c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RequiredToolPurpose: 1
+  m_Resistance: 0.9
+  m_DestroyedObject: {fileID: 1836787165064672, guid: d0aacdecc29e3994e83645c853ade54c,
+    type: 3}
+  m_DestroyedObjectOffset: {x: 0, y: 0, z: 0}
+  m_Loot:
+  - m_ItemName: Stone
+    m_SpawnChance: 60
+    m_MinAmount: 5
+    m_MaxAmount: 10
+  - m_ItemName: Diamond
+    m_SpawnChance: 0.2
+    m_MinAmount: 1
+    m_MaxAmount: 3
+  - m_ItemName: Topaz
+    m_SpawnChance: 14.6
+    m_MinAmount: 1
+    m_MaxAmount: 3
+  - m_ItemName: Sapphire
+    m_SpawnChance: 9.7
+    m_MinAmount: 1
+    m_MaxAmount: 3
+  m_ShowGatherMessage: 1
+  m_MessageColor: {r: 1, g: 1, b: 1, a: 1}
+  m_LootNameColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

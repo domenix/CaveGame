@@ -1,0 +1,655 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8e328d8f2cf8744b2a9fb9435adf39, type: 3}
+  m_Name: Item Database
+  m_EditorClassIdentifier: 
+  m_Categories:
+  - m_Name: Resource
+    m_Items:
+    - m_Name: Log
+      m_DisplayName: 
+      m_Id: 0
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 68e6a20cb97d3ae4594311f773695138, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - A log from a tree.
+      - 
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Coal
+      m_DisplayName: 
+      m_Id: 1
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: c0aed5e816328a04690ad07e487b916a, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - 'Obtain it by mining, or burning wood,
+
+'
+      - 
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Stone
+      m_DisplayName: 
+      m_Id: 2
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 3d3254e12fcfca649abe4606bcb7e62a, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - 'Basic resource obtainable by mining,
+
+        requires a pickaxe, or stone hatchet.'
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 5
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Metal Ore
+      m_DisplayName: 
+      m_Id: 3
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: e102e10a023c41a4ab9fb9a1d8141b92, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - A pretty rare resource
+      - 
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Sulfur Ore
+      m_DisplayName: 
+      m_Id: 4
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: c3fef4ed80f2ddf408d735a33346f9e0, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - A very rare resource.
+      - 
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Diamond
+      m_DisplayName: Diamond
+      m_Id: 5
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 5105571add7b50746ab7bc14fc688706, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "Diamonds have the highest hardness of \nany material. Because of this they
+        are \nused as tools for cutting and polishing \nthings."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Sapphire
+      m_DisplayName: Sapphire
+      m_Id: 6
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: d0dd52d1dd7749748abf875fc7991168, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "Sapphire is a type of the mineral \ncorundum. This mineral is found in\ngem
+        gravel deposits."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Ruby
+      m_DisplayName: Ruby
+      m_Id: 7
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: df88fe4ac05e9b44a9cadf7aa7168ac3, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "Ruby is a kind of precious stone. \nIt is usually red, but can sometimes\nbe
+        other colors."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Emerald
+      m_DisplayName: Emerald
+      m_Id: 8
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: b0203496a609b38418af8ec99d26a2ec, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "Emerald is a mineral gemstone and\na variety of beryl. It is a green \ncrystal.
+        The emerald is one of the\nmost valuable gems"
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Garnet
+      m_DisplayName: Garnet
+      m_Id: 9
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 4b660fec762df8a469d44d926e4a5c92, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "A garnet is one kind of silicate \nmineral. Their most common color \nis
+        red or purple, but they can be \nfound in almost all colors and are \noften
+        used in jewelry."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Peridot
+      m_DisplayName: Peridot
+      m_Id: 10
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 3966c000a4968b644b6f60fc96fa2ffa, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "The name of the gemstone is believed\nto come from either the Arabic word
+        \nfaridat meaning \"gem\" or the French \nword peritot meaning \"unclear.\"
+        \nPeridot is one of the few gemstones \nthat comes in only one color."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Aquamarine
+      m_DisplayName: Aquamarine
+      m_Id: 11
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 263b610f985cb2e4aa8b0eb86cac8ac4, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "Aquamarine is a gemstone, named \nfor its blue-green color, which looks \nlike
+        some shallow seas. It is a type \nof beryl. The color aquamarine is \nnamed
+        for the gemstone."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Topaz
+      m_DisplayName: Topaz
+      m_Id: 12
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 496fedff25f27444d9026f1d7c94bc6e, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "Topaz is a silicate mineral. Along \nwith silicate, it includes the chemical
+        \nelements aluminium and fluorine."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Amethyst
+      m_DisplayName: Amethyst
+      m_Id: 13
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 06f19116abee46845b99a76bd8514670, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "An amethyst is a mineral gemstone \nthat comes from quartz. It is usually
+        \ntransparent. It is valued because of \nits violet colour."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Opal
+      m_DisplayName: Opal
+      m_Id: 14
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: c5024ab0e51abaa4aa39a46ef33f160f, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "The opal is a fairly white rock mineral.  \nOpals are made from tiny spheres
+        of \nsilica (another mineral) and lots of \nwater."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Citrine
+      m_DisplayName: Citrine
+      m_Id: 15
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: c1a20a21fff787e4296248b7ef6e699a, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "Citrine is a variety of quartz whose \ncolor ranges from a pale yellow to
+        \nbrown due to ferric impurities. \nNatural citrines are rare;"
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+    - m_Name: Zircon
+      m_DisplayName: Zircon
+      m_Id: 16
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: e3dc6f266eb6de7408dde3c03916f895, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - "Zircon is a silicate mineral. It is found \nin many different places in almost
+        all \nkinds of rock. Clear zircon may look \nlike diamond and has been used
+        as a \ncheaper replacement for diamond."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+  - m_Name: Interactable
+    m_Items:
+    - m_Name: Campfire
+      m_DisplayName: 
+      m_Id: 17
+      m_Category: Interactable
+      m_Icon: {fileID: 21300000, guid: 027b8510039d2dc4fa6a8adfb4fdb4bd, type: 3}
+      m_WorldObject: {fileID: 1584624623678056, guid: 2f4f948e69f77de44bf1fedd6cdd2a62,
+        type: 3}
+      m_Descriptions:
+      - 'Great for cooking, will keep you warm
+
+        in your first night here.'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Is Placeable
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 1
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 60
+        m_RequiredItems:
+        - m_Name: Stone
+          m_Amount: 24
+    - m_Name: Storage Box
+      m_DisplayName: 
+      m_Id: 18
+      m_Category: Interactable
+      m_Icon: {fileID: 21300000, guid: 87850e5bf87b25d42a46dadd2daa8e5e, type: 3}
+      m_WorldObject: {fileID: 1787121670324686, guid: 1d596a8597a5247448027c1302e89619,
+        type: 3}
+      m_Descriptions:
+      - 'Whatever you don''t immediately need,
+
+        you can store in here.'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Is Placeable
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 1
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 60
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 12
+        - m_Name: Log
+          m_Amount: 6
+    - m_Name: Sleeping Bag
+      m_DisplayName: 
+      m_Id: 19
+      m_Category: Interactable
+      m_Icon: {fileID: 21300000, guid: 08051a5fa01f1bb4d8408b66fa7537fb, type: 3}
+      m_WorldObject: {fileID: 1977068408107232, guid: 9ca5ad5a8629eba42b56d80d84947bf0,
+        type: 3}
+      m_Descriptions:
+      - "You will respawn at this bag if you die.\nAlso when you sleep, \nthe time
+        will fast-forward until morning comes."
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Is Placeable
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 1
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 80
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 70
+  - m_Name: Tool
+    m_Items:
+    - m_Name: Axe
+      m_DisplayName: 
+      m_Id: 20
+      m_Category: Tool
+      m_Icon: {fileID: 21300000, guid: c09f79e4b749be1499da92cf834811ee, type: 3}
+      m_WorldObject: {fileID: 1205464364413260, guid: d41364d54e275214fb4a407e07623b94,
+        type: 3}
+      m_Descriptions:
+      - 'Chops down trees easily.
+
+        Requires metal to craft.'
+      m_StackSize: 1
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 25
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 4
+        - m_Name: Log
+          m_Amount: 6
+    - m_Name: Stone Hatchet
+      m_DisplayName: 
+      m_Id: 21
+      m_Category: Tool
+      m_Icon: {fileID: 21300000, guid: 53ddcddb64e193d488b5681064cdb68e, type: 3}
+      m_WorldObject: {fileID: 1141363321156694, guid: 8b124d32581be2044b53d87e7530ff74,
+        type: 3}
+      m_Descriptions:
+      - 'Sharp enough to cut down a tree, strong
+
+        enough to break rocks.'
+      m_StackSize: 1
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 35
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 4
+        - m_Name: Stone
+          m_Amount: 8
+        - m_Name: Log
+          m_Amount: 5
+    - m_Name: Pickaxe
+      m_DisplayName: 
+      m_Id: 22
+      m_Category: Tool
+      m_Icon: {fileID: 21300000, guid: bae9b9f2dd7e55b42a8056572dd5a996, type: 3}
+      m_WorldObject: {fileID: 1087723769456120, guid: 9fda1a712c34828468a0bdb9ae138166,
+        type: 3}
+      m_Descriptions:
+      - A sharp, iron-made pickaxe.
+      m_StackSize: 1
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 48
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 4
+        - m_Name: Log
+          m_Amount: 8
+        - m_Name: Log
+          m_Amount: 5
+    - m_Name: Torch
+      m_DisplayName: 
+      m_Id: 23
+      m_Category: Tool
+      m_Icon: {fileID: 21300000, guid: cadf8666eb65035488dfd176ad914903, type: 3}
+      m_WorldObject: {fileID: 1091006355050110, guid: 131f53166877c2245a408564c66e4367,
+        type: 3}
+      m_Descriptions:
+      - Let there be light!
+      m_StackSize: 1
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 48
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 4
+        - m_Name: Log
+          m_Amount: 4
+  - m_Name: Other
+    m_Items:
+    - m_Name: Building Plan
+      m_DisplayName: 
+      m_Id: 24
+      m_Category: Other
+      m_Icon: {fileID: 21300000, guid: 4ed13529c442856499a83c16e9861855, type: 3}
+      m_WorldObject: {fileID: 1466279581668696, guid: 9a7cb5c5cd6a62b45827fa06a6bc33f3,
+        type: 3}
+      m_Descriptions:
+      - 'Carry this in your hands,
+
+        and you can start building.'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Allows Building
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 35
+        m_RequiredItems:
+        - m_Name: Leather
+          m_Amount: 6
+  m_ItemProperties:
+  - m_Name: Health Change
+    m_Type: 4
+  - m_Name: Thirst Change
+    m_Type: 4
+  - m_Name: Hunger Change
+    m_Type: 4
+  - m_Name: Hunger Change
+    m_Type: 4
+  - m_Name: Defense
+    m_Type: 2
+  - m_Name: Durability
+    m_Type: 5
+  - m_Name: Ammo Type
+    m_Type: 8
+  - m_Name: Consume Sound
+    m_Type: 9
+  - m_Name: Fuel Time
+    m_Type: 5
+  - m_Name: Burn Time
+    m_Type: 5
+  - m_Name: Burn Result
+    m_Type: 8
+  - m_Name: Can Dismantle
+    m_Type: 0
+  - m_Name: Can Consume
+    m_Type: 0
+  - m_Name: Disable Underwear
+    m_Type: 0
+  - m_Name: Allows Building
+    m_Type: 0
+  - m_Name: Is Placeable
+    m_Type: 0

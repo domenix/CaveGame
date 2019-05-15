@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 31b8ea507c26630459a152abecabb4de
+  - enabled: 1
+    path: Assets/Scenes/GeologySurvival.unity
+    guid: f3a6a1a22d39f5849b43e00509cd89c2
   m_configObjects: {}
